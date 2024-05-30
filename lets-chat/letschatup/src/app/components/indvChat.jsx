@@ -1,6 +1,6 @@
 import { auth } from "./firebaseConfig";
 import { signOut } from "firebase/auth";
-import { PrettyChatWindow } from "react-chat-engine-pretty";
+import { PrettyChatWindow} from "react-chat-engine-pretty";
 
 export default function Page({ user }) {
   return (
